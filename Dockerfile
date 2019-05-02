@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+MAINTAINER Yusu Pan <xxdsox@gmail.com>
+
 # create ant dir
 RUN mkdir -p /opt/ant/
 # download ant 1.9.8
