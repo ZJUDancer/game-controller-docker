@@ -6,4 +6,4 @@ docker run -it --rm --init \
   -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
   -v $XAUTHORITY:/root/.Xauthority \
   corenel/game-controller \
-  -l hl_kid
+  $@
